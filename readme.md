@@ -12,7 +12,7 @@ Google’s​ [SlateQ](https://research.google/pubs/pub48200/) algorithm address
 Here, we explore the interest evolution environment from [`RecSim`](https://ai.googleblog.com/2019/11/recsim-configurable-simulation-platform.html) ([GitHub repo](https://github.com/google-research/recsim)) library to train RL agents. 
 
 ## Environment
-![title](images/recsim_at_a_glance.png)
+![]("/images/recsim_at_a_glance.png")
 
 ## Important Links
 
