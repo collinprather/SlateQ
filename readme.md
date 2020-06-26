@@ -1,6 +1,6 @@
 # Reinforcement Learning for Recommender Systems
 
-[![](images/video_shot.png)](https://www.youtube.com/watch?v=mweQpcMtY5E&feature=youtu.be "SlateQ Overview and RecSim Demo")
+[![](images/video_shot.png)](https://youtu.be/CVlNAc6RmIQ "SlateQ Overview and RecSim Demo")
 
 ## Summary 
 
