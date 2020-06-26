@@ -1,9 +1,30 @@
-# Reinforcement Learning for Recommendation Systems
-## A comparison of Google's [SlateQ](https://research.google/pubs/pub48200/) algorithm with traditional Reinforcement Learning techniques for Recommendation Systems
+# Reinforcement Learning(RL) for Recommender Systems
 
-In Google's recent [SlateQ paper](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/9f91de1fa0ac351ecb12e4062a37afb896aa1463.pdf), they outline a tractable technique to applying Reinforcement Learning to Recommendation Systems. In this repository, we compare their SlateQ algorithm with other techniques via simulation using the [`recsim`](https://ai.googleblog.com/2019/11/recsim-configurable-simulation-platform.html) ([GitHub repo](https://github.com/google-research/recsim)) package.
+Embed Video ppt
 
-For a high-level overview of the SlateQ algorithm, check out [Craig Boutilier's talk at ICML 2019](https://slideslive.com/38917655/reinforcement-learning-in-recommender-systems-some-challenges). 
+
+## Summary 
+
+Most practical recommender systems focus on estimating immediate user engagement without considering the long-term effects of recommendations on user behaviour. Reinforcement learning (RL) methods offer the potential to optimize recommendations for long-term user engagement. However, since users are often presented with slates of multiple items—which may have interacting effects on user choice—methods are required to deal with the combinatorics of the RL action space.
+
+Google’s​ [SlateQ](https://research.google/pubs/pub48200/) algorithm addresses this challenge by decomposing the long-term value (LTV) of a slate into a tractable function of its component item-wise LTVs. In this repo, we compare the efficiency of SlateQ to other RL methods like Q-learning that don’t decompose the LTV of a slate into its component-wise LTVs.
+
+Here, we explore the interest evolution environment from [`RecSim`](https://ai.googleblog.com/2019/11/recsim-configurable-simulation-platform.html) ([GitHub repo](https://github.com/google-research/recsim)) library to train RL agents. 
+
+[](/images/recsim_at_a_glance.png)
+
+## Important Links
+
+1. [Problem Formulation Document](https://github.com/collinprather/SlateQ/blob/master/project_proposal.pdf)
+2. [Exploratory Notebook on the interest evolution environment](https://github.com/collinprather/SlateQ/blob/master/notebooks/baseline_agents.ipynb)
+3. [Notebook comparing RL techniques](https://github.com/collinprather/SlateQ/blob/master/notebooks/baseline_agents.ipynb)
+
+## Contributors
+
+[Collin Prather](https://www.linkedin.com/in/collin-prather/) and [Shishir Kumar](https://www.linkedin.com/in/shishir-kumar/) are Master students in Data Science Students at the University of San Francisco.
+
+Thanks to [Prof Brian Spiering](https://www.linkedin.com/in/brianspiering/) for introducing us to this wonderful world of RL.
+
 
 ---
 
