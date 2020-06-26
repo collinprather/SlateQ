@@ -1,6 +1,6 @@
-# Reinforcement Learning (RL) for Recommender Systems
+# Reinforcement Learning for Recommender Systems
 
-Embed Video ppt
+[![](images/video_shot.png)](https://www.youtube.com/watch?v=mweQpcMtY5E&feature=youtu.be "Watch Presentation!")
 
 
 ## Summary 
@@ -9,9 +9,11 @@ Most practical recommender systems focus on estimating immediate user engagement
 
 Google’s​ [SlateQ](https://research.google/pubs/pub48200/) algorithm addresses this challenge by decomposing the long-term value (LTV) of a slate into a tractable function of its component item-wise LTVs. In this repo, we compare the efficiency of SlateQ to other RL methods like Q-learning that don’t decompose the LTV of a slate into its component-wise LTVs.
 
-Here, we explore the interest evolution environment from [`RecSim`](https://ai.googleblog.com/2019/11/recsim-configurable-simulation-platform.html) ([GitHub repo](https://github.com/google-research/recsim)) library to train RL agents. 
 
 ## Environment
+
+Here, we explore the interest evolution environment from [`RecSim`](https://ai.googleblog.com/2019/11/recsim-configurable-simulation-platform.html) ([GitHub repo](https://github.com/google-research/recsim)) library to train RL agents.
+
 ![](https://github.com/google-research/recsim/blob/master/recsim/colab/figures/recsim_at_a_glance.png)
 
 ## Important Links
