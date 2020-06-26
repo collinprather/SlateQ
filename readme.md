@@ -8,6 +8,11 @@ Most practical recommender systems focus on estimating immediate user engagement
 
 Google’s​ [SlateQ](https://research.google/pubs/pub48200/) algorithm addresses this challenge by decomposing the long-term value (LTV) of a slate into a tractable function of its component item-wise LTVs. In this repo, we compare the efficiency of SlateQ to other RL methods like Q-learning that don’t decompose the LTV of a slate into its component-wise LTVs.
 
+## Results
+
+Empirically, we've shown that the SlateQ algorithm outperforms traditional Q-learning approaches across multiple metrics in our simulated environment.
+
+![results](images/hero.png)
 
 ## Environment
 
